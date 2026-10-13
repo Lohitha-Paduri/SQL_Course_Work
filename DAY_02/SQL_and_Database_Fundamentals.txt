@@ -1,0 +1,149 @@
+data - Raw facts or information
+record - collection of related data about one item/person
+table - collection of records arranged in rows and columns
+database - collection of related tables and other organized data
+
+
+Data Models
+------------
+
+1. Hierarchical Data Model 
+Data is organized in a tree-like structure.
+Has a parent → child relationship.
+One parent can have many children.
+A child generally has only one parent.
+
+
+2.Network Data Model 
+Data is organized as a network of connected records.
+Unlike the hierarchical model, a record can have multiple parents.
+
+3. Relational Data Model 📊
+Data is organized into tables consisting of:
+Rows → Records
+Columns → Attributes/fields
+Tables → Related data
+
+4. Object-Oriented Data Model 🧩
+
+Data is represented as objects, similar to Object-Oriented Programming.
+An object contains:
+Data/attributes
+Methods/behavior
+
+
+
+SQL
+
+SQL = Structured Query Language
+SQL is a language used to communicate with relational databases.
+
+We use SQL to:
+Create tables
+Insert data
+Retrieve data
+Update data
+Delete data
+Filter and sort data
+
+Eg: SELECT * FROM students;
+This asks the database to show all records from the students table.
+
+
+MySQL(Executes SQL commands)
+
+MySQL is a Relational Database Management System (RDBMS).
+It is software that stores and manages data in databases and allows you to use SQL to work with that data.
+
+Eg: You can use SQL commands inside MySQL:
+
+SELECT name, age
+FROM students
+WHERE age > 20;
+
+
+SQL Sub-Languages
+
+1. DDL — Data Definition Language
+
+Used to create or change the structure of database objects, such as tables.
+
+Commands:
+CREATE
+ALTER
+DROP
+TRUNCATE
+
+2. DML — Data Manipulation Language
+
+Used to modify the data stored inside tables.
+
+Commands:
+INSERT
+UPDATE
+DELETE
+
+3. DQL — Data Query Language
+
+Used to retrieve data from the database.
+
+Command:
+SELECT
+
+4. DCL — Data Control Language
+
+Used to control access and permissions in a database.
+
+Commands:
+GRANT
+REVOKE
+
+5. TCL — Transaction Control Language
+
+Used to manage transactions in a database.
+
+Commands:
+COMMIT
+ROLLBACK
+SAVEPOINT
+START TRANSACTION
+
+
+Datatypes:
+Numeric: INT, BIGINT, FLOAT, DOUBLE, DECIMAL, SMALLINT/BOOLEAN — used to store numerical values.
+String: CHAR, VARCHAR, ENUM, TEXT — used to store text and characters.
+Date/Time: DATE, TIME, DATETIME, TIMESTAMP
+
+SQL Constraints
+
+NOT NULL - Column cannot contain NULL	
+UNIQUE - Prevents duplicate values	
+PRIMARY KEY - Uniquely identifies each record(combination of NOT NULL & UNIQUE)	
+FOREIGN KEY - Connects two tables	
+CHECK - Ensures a condition is satisfied	
+DEFAULT - Provides a value if none is given	
+
+
+DROP - Completely removes the table - Table + all data + structure are deleted
+TRUNCATE - Removes all records - Data is deleted, but table structure remains
+
+5 alternative commands we do have is:
+add
+modify
+change
+drop
+rename
+
+
+
+
+
+
+
+
+
+
+
+
+
+
