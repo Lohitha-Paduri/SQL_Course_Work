@@ -1,0 +1,101 @@
+Data:
+Data is a collection of facts, information, or values that we can store and use later.
+
+where do we use data:
+We use data almost everywhere.
+
+Education-Student names, marks, attendance
+Banking	Account- details, transactions
+LinkedIn - Posts, username, comments
+
+Types of Data:
+
+1.Structured Data
+Structured data is data that is organized in a fixed format, usually in rows and columns.
+
+2.Unstructured Data
+Unstructured data does not follow a fixed format or predefined structure.
+
+3. Semi-Structured Data
+Semi-structured data does not have a strict table structure, but it contains some organization using tags, keys, or labels.
+
+
+Data vs Information
+
+Data = raw, unprocessed facts(unorganized)
+Information = Meaningful, processed data(organized)
+
+
+File Management
+File management means organizing, storing, accessing, and managing files on a computer or storage system.
+
+Features of File Management
+
+-create, update, delete
+-access Retrieval
+-manipulation, organization
+-File sharing, protection
+-Backup theory, recovery
+
+1.Create – Create new files.
+2.Store – Save files for future use.
+3.Access – Open and read files when needed.
+4.Modify – Edit or update existing files.
+5.Rename – Change the name of a file.
+6.Copy – Create another copy of a file.
+7.Move – Move files between folders/locations.
+8.Delete – Remove unwanted files.
+9.Organize – Arrange files into folders.
+10.Search – Find files quickly.
+11.Backup – Keep another copy to prevent data loss.
+12.Security – Control who can access or modify files.
+
+
+Drawbacks
+-------------
+1. Data Redundancy
+Data redundancy means the same data is stored multiple times.
+
+2. Data Inconsistency
+Data inconsistency means the same data has different values in different places.
+
+3. Data Security
+In a traditional file system, controlling who can access which data can be difficult.
+
+4. Difficult Data Sharing
+When multiple people or applications need to use the same data, sharing and coordinating files can be difficult.
+
+5. No Relationships
+In a traditional file system, it is difficult to connect related data stored in different files
+
+6. Backup and Recovery Problems
+If files are accidentally deleted, corrupted, or damaged, recovering the correct version can be difficult without a proper backup system.
+
+7. No Query Language
+In a traditional file system, there is usually no powerful standard query language like SQL to easily retrieve specific data.
+
+8. Scalability
+Scalability means the ability of a system to handle increasing amounts of data and users.
+
+
+Database
+A database is an organized collection of data that is stored so we can easily access and use it.
+
+Management -  set of tools and regulations to organize the data
+Management means controlling and handling the data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
