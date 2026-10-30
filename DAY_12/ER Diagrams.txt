@@ -1,0 +1,93 @@
+ER Diagrams (Entity Relationship Diagrams) 
+
+1. What is an ER Diagram?
+An Entity Relationship (ER) Diagram is a graphical representation of a database that describes the structure of a database by identifying entities, attributes, and relationships between them.
+
+It is used during database design to understand how data is organized and how different entities are connected.
+
+Example: In a college management system, Student, Teacher, Course, and Department are entities.
+
+2. Components of an ER Diagram
+
+1. Entity
+An entity is a real-world object or thing about which we store information in a database.
+
+Examples:
+- Student
+- Employee
+- Customer
+- Product
+- Department
+Types of Entities:
+
+Strong Entity:
+- A strong entity can exist independently.
+- It has its own primary key.
+- It does not depend on another entity for its existence.
+Example: Student, Employee, Department.
+
+Weak Entity:
+- A weak entity cannot exist independently.
+- It depends on another strong entity.
+- It does not have a complete primary key of its own.
+- It is identified using the owner's primary key along with a partial key.
+Example: Employee and Employee_Dependent. A dependent's record is associated with an employee.
+
+2. Attributes
+Attributes are the properties or characteristics of an entity. In database tables, attributes represent columns.
+
+Example: Student entity has Student_ID, Name, Age, Email, and Phone.
+
+Types of Attributes:
+
+Simple Attribute:
+- Cannot be divided into smaller parts.
+- Example: Age, Salary.
+Composite Attribute:
+- Can be divided into smaller attributes.
+- Example: Name can be divided into First_Name, Middle_Name, and Last_Name.
+Single-Valued Attribute:
+- Contains only one value for each entity.
+- Example: Date_of_Birth.
+Multi-Valued Attribute:
+- Can contain multiple values for one entity.
+- Example: An employee can have multiple phone numbers.
+Derived Attribute:
+- Its value is calculated from another attribute.
+- Example: Age can be calculated using Date_of_Birth.
+Key Attribute:
+- Uniquely identifies each entity.
+- Example: Student_ID.
+
+3. Relationship
+A relationship represents the association between two or more entities.
+
+Examples:
+- A Student enrolls in a Course.
+- An Employee works in a Department.
+- A Customer places an Order.
+Relationships help us understand how different entities are connected in a database.
+
+3. Types of Relationships 
+
+Cardinality defines how many instances of one entity can be associated with instances of another entity.
+
+1. One-to-One (1:1)
+
+One record in the first entity is associated with only one record in the second entity, and vice versa.
+Example: One person has one passport.
+
+2. One-to-Many (1:N)
+
+One record in the first entity can be associated with multiple records in the second entity.
+Example: One department can have many employees.
+
+3. Many-to-One (N:1)
+
+Multiple records in the first entity can be associated with one record in the second entity.
+Example: Many employees work in one department.
+
+4. Many-to-Many (M:N)
+
+Multiple records in one entity can be associated with multiple records in another entity.
+Example: One student can enroll in multiple courses, and one course can have multiple students.
